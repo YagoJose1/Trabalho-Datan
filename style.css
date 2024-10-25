@@ -1,0 +1,16 @@
+body{
+  background-color: black;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.btn_next{
+  color: white;
+  text-decoration: none;
+}
+
+.btn_prev{
+  height: 64px;
+  width: 64px;
+}
