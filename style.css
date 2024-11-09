@@ -1,7 +1,8 @@
 body{
-  background-color: black;
-  color: white;
+  background-color: rgb(255, 255, 255);
+  color: rgb(0, 0, 0);
   font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
 }
 
 li {
@@ -9,11 +10,48 @@ li {
 }
 
 .btn_next  {
-  color: white;
+  color: rgb(0, 0, 0);
   text-decoration: none; 
 }
 
 .btn_prev{
   height: 64px;
   width: 64px;
+}
+
+.cosplay img{
+  padding-left: 140px;
+  height: 300px;
+  width: 450px;
+}
+
+
+a {
+  text-decoration: none; 
+  color: #3498db; 
+}
+
+a:hover {
+  color: #2980b9; 
+  text-decoration: none; 
+}
+
+.workshops img {
+  padding-left: 140px;
+  height: 300px;
+  width: 450px;
+}
+
+.btn-login{
+  box-sizing: border-box;
+  background-color: #fff
+}
+
+.btn-login:hover{
+  cursor: pointer;
+}
+
+.btn-login a{
+  color: #2980b9;
+  text-decoration: none;
 }
