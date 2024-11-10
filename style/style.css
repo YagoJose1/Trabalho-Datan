@@ -1,4 +1,4 @@
-@include(pag_3.css);
+@import url('rodape.css');
 
 body{
   background-color: rgb(255, 255, 255);

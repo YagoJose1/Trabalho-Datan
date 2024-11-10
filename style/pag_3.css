@@ -1,3 +1,6 @@
+@import url('rodape.css');
+
+
 * {
     margin: 0;
     padding: 0;
@@ -57,6 +60,11 @@ h1 {
     gap: 20px;
     position: relative;
     overflow: hidden;
+    margin-bottom: 40px; /* Garantir que os itens não fiquem tão colados */
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .item img {
@@ -81,6 +89,12 @@ h1 {
 /* Estilos para alternar imagem e texto */
 .reverse {
     flex-direction: row-reverse;
+    text-align: right;
+}
+
+.reverse .item p {
+    transform: translateX(100%); /* Modificado para sair da direita */
+    text-align: right;
 }
 
 .item.show p {
@@ -97,5 +111,20 @@ h1 {
 
     .reverse {
         flex-direction: column;
+    }
+}
+
+/* Adicionar margens para textos dentro do item */
+.item p br {
+    margin-bottom: 15px; /* Espaço extra entre as linhas do texto */
+}
+
+/* Para garantir uma boa aparência em telas menores */
+@media (max-width: 480px) {
+    .item img {
+        width: 120px; /* Ajustar o tamanho da imagem em telas menores */
+    }
+    .item p {
+        font-size: 0.9rem; /* Reduzir o tamanho do texto em dispositivos menores */
     }
 }
