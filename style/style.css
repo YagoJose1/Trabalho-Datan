@@ -25,11 +25,15 @@ li {
 }
 
 .cosplay img{
-  padding-left: 140px;
-  height: 300px;
-  width: 450px;
+  width: 500px;
+   height: 450px; 
+   margin: 10px 15px;
+    background-size: cover; 
+    background-position: top; 
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+    transition: transform 0.3s;
 }
-
 
 a {
   text-decoration: none; 
@@ -110,7 +114,6 @@ nav ul li a {
 }
 
 .envolvidos {
-
   display: flex;
   justify-content: center;
   text-align: center;
@@ -135,10 +138,15 @@ nav ul li a {
 }
 
 .btn_envolv{
-  
-    color: white;
-    text-decoration: none; 
+  color: white;
+  text-decoration: none; 
+  transition: all 0.2s ease-in-out;
+}
 
+.btn_envolv:hover{
+  color: rgb(34, 233, 199);
+  text-decoration: none; 
+  transition: all 0.2s ease-in-out;
 }
 
 .Dario{
