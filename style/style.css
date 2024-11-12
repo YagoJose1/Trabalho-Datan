@@ -12,13 +12,16 @@ li {
 }
 
 .btn_next  {
-  color: rgb(0, 0, 0);
+  color: black;
   text-decoration: none; 
 }
 
 .btn_prev{
-  height: 64px;
-  width: 64px;
+  position: absolute; /* Posiciona a imagem de forma absoluta */
+  top: 0; /* Alinha a imagem ao topo */
+  left: 0; /* Alinha a imagem à esquerda */
+  width: 30px; /* Largura da imagem (ajuste conforme necessário) */
+  height: auto; /* Mantém a proporção da imagem */
 }
 
 .cosplay img{
@@ -107,7 +110,39 @@ nav ul li a {
 }
 
 .envolvidos {
+
   display: flex;
   justify-content: center;
   text-align: center;
+}
+
+/*nav bar*/
+.navbar {
+  background-color: rgb(54, 3, 240);
+  display: flex;
+  justify-content: space-between; /* Espaço entre os itens de navegação e o botão de login */
+  align-items: center; /* Alinha os itens verticalmente */
+  width: 100%; /* Garante que a navbar ocupe toda a largura */
+  padding: 10px 20px; /* Espaçamento interno */
+  border-radius: 10px; /* Borda arredondada */
+}
+
+
+.navlinks{
+  
+    margin: 0 15px; /* Espaçamento entre os itens */
+
+}
+
+.btn_envolv{
+  
+    color: white;
+    text-decoration: none; 
+
+}
+
+.Dario{
+  width: 500px;
+  height: 200px;
+  border-radius: 50px;
 }
