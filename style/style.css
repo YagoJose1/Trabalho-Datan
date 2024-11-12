@@ -20,7 +20,7 @@ li {
   position: absolute; /* Posiciona a imagem de forma absoluta */
   top: 0; /* Alinha a imagem ao topo */
   left: 0; /* Alinha a imagem à esquerda */
-  width: 30px; /* Largura da imagem (ajuste conforme necessário) */
+  width: 60px; /* Largura da imagem (ajuste conforme necessário) */
   height: auto; /* Mantém a proporção da imagem */
 }
 
@@ -152,5 +152,9 @@ nav ul li a {
 .Dario{
   width: 500px;
   height: 200px;
+  border-radius: 50px;
+}
+
+.eventoimgs{
   border-radius: 50px;
 }

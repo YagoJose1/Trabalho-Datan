@@ -133,6 +133,6 @@ h1 {
     position: absolute; /* Posiciona a imagem de forma absoluta */
     top: 0; /* Alinha a imagem ao topo */
     left: 0; /* Alinha a imagem à esquerda */
-    width: 30px; /* Largura da imagem (ajuste conforme necessário) */
+    width: 60px; /* Largura da imagem (ajuste conforme necessário) */
     height: auto; /* Mantém a proporção da imagem */
   }
