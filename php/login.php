@@ -1,5 +1,6 @@
 <?php
 
+//Configuracoes banco de dados
 $host = "localhost";
 $user = "root";
 $pass = "";
@@ -53,6 +54,7 @@ mysqli_stmt_close($stmt);
 mysqli_close($con);
 ?>
 
+<!--Formulario de login-->
 <!DOCTYPE html>
 <html lang="pt-br">
 <head>
