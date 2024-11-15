@@ -14,14 +14,27 @@ li {
 .btn_next  {
   color: black;
   text-decoration: none; 
+  transition: all 0.2s ease-in-out;
+}
+
+.btn_next:hover{
+  color: rgb(13, 114, 228);
+  text-decoration: none; 
+  transition: all 0.2s ease-in-out;
 }
 
 .btn_prev{
   position: absolute; /* Posiciona a imagem de forma absoluta */
   top: 0; /* Alinha a imagem ao topo */
   left: 0; /* Alinha a imagem à esquerda */
-  width: 60px; /* Largura da imagem (ajuste conforme necessário) */
-  height: auto; /* Mantém a proporção da imagem */
+  width: 60px;
+  height: 60px;
+  cursor: pointer;
+  transition: transform 0.2s;
+}
+
+.btn_prev:hover {
+  transform: scale(1.1);
 }
 
 .cosplay img{
@@ -45,10 +58,15 @@ a:hover {
   text-decoration: none; 
 }
 
-.workshops img {
-  padding-left: 140px;
-  height: 300px;
-  width: 450px;
+.workshops img{
+  width: 500px;
+  height: 450px; 
+  margin: 10px 15px;
+  background-size: cover; 
+  background-position: top; 
+  border-radius: 8px; 
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); 
+  transition: transform 0.3s;
 }
 
 /* Estilos para o contêiner do cabeçalho */
@@ -132,9 +150,7 @@ nav ul li a {
 
 
 .navlinks{
-  
-    margin: 0 15px; /* Espaçamento entre os itens */
-
+  margin: 0 15px; /* Espaçamento entre os itens */
 }
 
 .btn_envolv{
